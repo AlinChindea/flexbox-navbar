@@ -22,10 +22,23 @@
   margin-left: auto;
 }
 
+.navbar-burger {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar-items,
   .navbar {
     flex-direction: column;
+  }
+  .navbar-items {
+    display: none;
+  }
+  .navbar-burger {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
   }
   .navbar-items-right {
     margin-left: 0;
