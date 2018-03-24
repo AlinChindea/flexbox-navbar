@@ -1,3 +1,11 @@
-body {
+/* body {
   background-color: dodgerblue;
+} */
+
+.navbar {
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  padding: 16px;
+  color: white;
 }
