@@ -7,5 +7,17 @@
   display: flex;
   font-family: 'Open Sans', sans-serif;
   padding: 16px;
-  color: white;
+  color: #fff;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-link {
+  padding: 8px;
+}
+
+.navbar-items-right {
+  margin-left: auto;
 }
