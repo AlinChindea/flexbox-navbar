@@ -21,3 +21,13 @@
 .navbar-items-right {
   margin-left: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar-items,
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-items-right {
+    margin-left: 0;
+  }
+}
