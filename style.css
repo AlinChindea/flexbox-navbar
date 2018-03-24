@@ -34,13 +34,16 @@
   .navbar-items {
     display: none;
   }
+  .navbar-items-right {
+    margin-left: 0;
+  }
+  .navbar-burgerToggle {
+    display: flex;
+  }
   .navbar-burger {
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
-  }
-  .navbar-items-right {
-    margin-left: 0;
   }
 }
