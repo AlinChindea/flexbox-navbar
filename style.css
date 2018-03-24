@@ -1,11 +1,21 @@
-/* body {
-  background-color: dodgerblue;
-} */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 
 .navbar {
   background-color: rgba(0, 0, 0, .7);
   display: flex;
-  font-family: 'Open Sans', sans-serif;
   padding: 16px;
   color: #fff;
 }
@@ -46,4 +56,23 @@
     position: absolute;
     cursor: pointer;
   }
+}
+/* use this class on the content above the sticky footer*/
+/* .content{
+  flex: 1 0 auto;
+  padding: 10px;
+} */
+
+/* remove margin-top when using content*/
+.footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  padding: 10px;
+}
+
+footer {
+  background: #42A5F5;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
