@@ -7,7 +7,7 @@ This is a responsive navbar burger menu and sticky footer built using flexbox. W
 
 I have added a sticky footer - a potential nightmare for newbies (not in the same zip code with the "fatal error" message you sometimes get in code editors. The purpose of a sticky footer is that it "sticks" to the bottom of the browser window. If there is enough content on the page to push the footer lower, it will stick to the bottom. If the content on the page is short, a sticky footer will still hang to the bottom of the browser window. For details see this [article](https://css-tricks.com/couple-takes-sticky-footer/)
 
-For more about **Flexbox**, chece these sources:
+For more about **Flexbox**, check these sources:
  
 - [Source 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Source 2](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
